@@ -60,3 +60,12 @@
 #   postgresql9_chkpass "postgres_test"
 #   postgresql9_postgis "postgres_test"
 # end
+
+enable_package "media-gfx/imagemagick" do
+  version "6.4.9.2" 
+end
+
+package "media-gfx/imagemagick" do
+  version "6.4.9.2" 
+  action :install 
+end
